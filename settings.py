@@ -8,7 +8,7 @@ SLEEP_INTERVAL = 1000
 
 #This is the token that allows us to send messages to Slack
 #It's inputted from the user as an environmental variable
-SLACK_TOKEN = "xoxp-86815597095-86801482484-86755944979-fd870da98c64b305533321551440761f"
+SLACK_TOKEN = os.getenv("WUXIA_BOT_TOKEN", "")
 #where we're posting the updates to
 SLACK_CHANNEL = "#wuxia_update"
 
