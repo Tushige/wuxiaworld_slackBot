@@ -6,16 +6,16 @@ You can enable desktop notifications on Slack for convenience.
 
 ## SETUP
 In order to use this bot, you need to create
-    1. Slack Team
-    2. Slack channel - where the bot will post
-    3. Test API token - add it to your environment variables as `WUXIA_BOT_TOKEN`
+    * Slack Team
+    * Slack channel - where the bot will post
+    * Test API token - add it to your environment variables as `WUXIA_BOT_TOKEN`
 
 ## Settings
 For the bot to work, you need to do the following in `settings.py`
-    1. Modify `SLACK_CHANNEL` to contain the channel you've created
-    2. Modify `NOVELS` to contain titles of novels you're interested
-    3. Modify `TIME_CRITERIA` to specify search condition
-    4. Modify `SLEEP_INTERVAL` to specify how often to check for updates
+    * Modify `SLACK_CHANNEL` to contain the channel you've created
+    * Modify `NOVELS` to contain titles of novels you're interested
+    * Modify `TIME_CRITERIA` to specify search condition
+    * Modify `SLEEP_INTERVAL` to specify how often to check for updates
 ## installing dependencies
     run `pip install -r requirements.txt` to install all the dependencies
 
