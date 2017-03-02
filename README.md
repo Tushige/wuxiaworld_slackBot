@@ -6,7 +6,7 @@ the title of the novel and the time it was updated to the specified Slack channe
 You can enable desktop notifications on Slack for convenience.
 
 ## SETUP
--------------------
+
 In order to use this bot, you need to create
 
 * Slack Team
@@ -14,17 +14,18 @@ In order to use this bot, you need to create
 * Test API token - add it to your environment variables as `WUXIA_BOT_TOKEN`
 
 ## Settings
--------------------
+
 For the bot to work, you need to do the following in `settings.py`
 
 * Modify `SLACK_CHANNEL` to contain the channel you've created
 * Modify `NOVELS` to contain titles of novels you're interested
 * Modify `TIME_CRITERIA` to specify search condition
 * Modify `SLEEP_INTERVAL` to specify how often to check for updates
+
 ## installing dependencies
--------------------
+
     run `pip install -r requirements.txt` to install all the dependencies
 
 ## How to run
--------------------
+
     run `python loop.py` to begin the program
