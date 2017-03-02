@@ -4,9 +4,9 @@ import time
 import sys
 import traceback
 
-if __name__ == "__main__":
+def main():
     while True:
-        print("{}: Starting scrape cycle".format(time.ctime()))
+        print("{}: Starting scrape session!".format(time.ctime()))
         try:
             scrape_wuxia()
         except KeyboardInterrupt:
@@ -18,4 +18,6 @@ if __name__ == "__main__":
         else:
             print("{}: Finished a scraping session!".format(time.ctime()))
         time.sleep(settings.SLEEP_INTERVAL)
-        
+
+if __name__ == "__main__":
+    main()
